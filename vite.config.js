@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: '/~lewisj628/CS295R/board-game-meetups/', // adjust to the folder that contains index.html
   plugins: [
     react(),
     tailwindcss(),
